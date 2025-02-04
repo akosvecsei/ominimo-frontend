@@ -11,8 +11,8 @@ export const REGISTER = "/register";
 const NotFound = () => <div>Page not found.</div>;
 
 export const router = createBrowserRouter([
-    { path: ROOT, element: <MainView /> },
-    { path: LOGIN, element: <Login /> },
-    { path: REGISTER, element: <Register /> },
-    { path: "*", element: <NotFound /> }
+  { path: ROOT, element: <MainView /> },
+  { path: LOGIN, element: <Login /> },
+  { path: REGISTER, element: <Register /> },
+  { path: "*", element: <NotFound /> },
 ]);
